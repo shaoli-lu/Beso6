@@ -1,0 +1,64 @@
+
+
+.container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+   
+}
+
+main {
+  height: 60vh;
+}
+
+/* 
+header {
+  height: 10vh;
+}
+
+
+foot {
+  height: 5vh;
+} */
+
+.section {
+  padding: 5px;
+  font-size: 1.5rem;
+}
+
+.blue {
+  background-color: #A9E2EA;
+}
+.coral {
+  background-color: #F6C8AB;
+}
+
+.purple {
+  background-color: #DFD3E4;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px 0;
+  color: #999;
+  font-size: .9rem;
+}
+
+img {
+  margin: 5px;
+}
+@keyframes move {
+  0% {left: 0%}
+  25% {left: 30%}
+  50% {left: 60%}
+  75% {left: 30%}
+  95% {left: 0.1%}
+  }
+  
+#move {
+    position: relative;
+    animation-name: move;
+    animation-duration: 120s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    color: orange;
+}
